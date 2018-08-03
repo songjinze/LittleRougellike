@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Enermy2
+  m_Controller: {fileID: 9100000, guid: ce76a4a71a6073c44b2d78d48b8f79a2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 86aa75e8ce597e3458c4e8cce45ec5ba, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3add2e6cb0fb4db468b3aa780e9790c3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 48db2f0d0941e974ea12ba3a8245ecb6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 68d3260b3a5fc4a4d90952b88c46d856, type: 2}
