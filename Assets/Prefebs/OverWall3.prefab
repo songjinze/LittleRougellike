@@ -19,11 +19,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4756977633218564}
-  - component: {fileID: 61081571736372072}
   - component: {fileID: 212116178011399746}
-  m_Layer: 0
+  - component: {fileID: 61134779840212674}
+  m_Layer: 8
   m_Name: OverWall3
-  m_TagString: Untagged
+  m_TagString: OuterWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,7 +41,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61081571736372072
+--- !u!61 &61134779840212674
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

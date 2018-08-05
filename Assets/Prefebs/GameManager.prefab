@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1529797799197828}
+  m_RootGameObject: {fileID: 1794936476118292}
   m_IsPrefabAsset: 1
---- !u!1 &1529797799197828
+--- !u!1 &1794936476118292
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4105826830917204}
-  - component: {fileID: 114470117827925044}
-  - component: {fileID: 114329267247851576}
+  - component: {fileID: 4867835758353026}
+  - component: {fileID: 114222529643696296}
+  - component: {fileID: 114052318778550336}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4105826830917204
+--- !u!4 &4867835758353026
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1529797799197828}
+  m_GameObject: {fileID: 1794936476118292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,19 +41,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114329267247851576
+--- !u!114 &114052318778550336
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1529797799197828}
+  m_GameObject: {fileID: 1794936476118292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b930d5154227faf4da861f6b386b23db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114222529643696296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1794936476118292}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6cf8a233ade0c479b785f239f923f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   columns: 8
-  rows: 8
+  rows: 9
   wallCount:
     minimum: 5
     maximum: 9
@@ -78,6 +89,7 @@ MonoBehaviour:
   - {fileID: 1291797360609442, guid: 47db3ff6810256f46907fda119f29088, type: 2}
   foodTiles:
   - {fileID: 1951878356685476, guid: acc8a556ea7a2904eb322a1248631493, type: 2}
+  - {fileID: 1518680053628280, guid: 15faf8d7086a0624faaf25b2729cdf2b, type: 2}
   enermyTiles:
   - {fileID: 1408684457147778, guid: 5ed4974af1611e348b028d0fc2179c65, type: 2}
   - {fileID: 1732819236038122, guid: eabc8fdc41e0c60478c807dcfc6ecadc, type: 2}
@@ -85,15 +97,3 @@ MonoBehaviour:
   - {fileID: 1543695921426534, guid: d2a38beaccc76124487f7e2561d6d71e, type: 2}
   - {fileID: 1712840009758480, guid: 9c089a5362ff2bd4f8651f84c820ab98, type: 2}
   - {fileID: 1523880842761556, guid: ad2b80cde6a4b0a40b92d7ebb20df151, type: 2}
---- !u!114 &114470117827925044
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1529797799197828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b930d5154227faf4da861f6b386b23db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boardScript: {fileID: 0}
